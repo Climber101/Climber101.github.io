@@ -6,6 +6,18 @@ h1,h2,h3,h4,h5,p,span,div,main,nav {
     text-align: left;
 }
 
+h1,h2,h3,h4 {
+    color: #092854;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-top: 10px;
+    width 90%;
+}
+h4 {
+    margin-left: 15px;
+}
 
 body {
     padding: 0;
@@ -18,16 +30,30 @@ main {
     margin-left: 12.5vw;
     background-color: #d2d2d2;
     padding: 10px;
+    padding-top: 3vw;
 }
 
 header {
     margin: 0;
-    width: 100vw;
-    background-color: green;
+    width: 100%;
+    padding: 10px;
+    background-color: #092854;
+    position: fixed;
+    display: block;
+    height: auto;
+    overflow: auto;
+    
+}
+
+article {
+    display: flex;
+    
     
 }
 nav {
     text-align: center;
+    background-color: #092854;
+    
 }
 
 h1 {
@@ -40,24 +66,10 @@ h2{
     padding-top: 20px;
 }
 
-#header_main {
-    background-color: #092854;
-    height: 10vw;
-}
 
-#header_image {
-    width: 10vw;
-    
-    float: left;
-}
 
-#header_title {
-    width: 90vw;
-    float: left;
-}
-
-#header_menu {
-    width: 100vw;
+#nav_menu {
+    width: 100%;
     float: left;
 }
 
@@ -65,20 +77,71 @@ h2{
     width:10vw;
 }
 
-.header_text {
-    color: white;
-}
 
+#menu {
+    text-align: center;
+    
+}
 .menu,.menu_break {
     float: center;
     text-align: center;
-    padding-top: 20px;
-    padding-left: 5px;
-    padding-right: 15px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.menu_text {
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
 
 .menu:hover {
     color: #89ade0;
+}
+
+.articleSubheading {
+    margin-bottom: 15px;
+    margin-top:25px;
+}
+.subArticle {
+    display: flex;
+    align-content: 
+}
+
+.articleImg {
+    width: inherit;
+}
+#logo {
+    width: 100%;
+}
+.articleLeft {
+    float: left;
+    width: 400px;
+    margin-left: 30px;
+    display: block;
+}
+.articleRight {
+    float: left;
+    width:65%;
+    margin-left: 15px;
+    display: block;
+}
+.headerText {
+    margin-top: 95px;
+}
+#article1 {
+    margin-top: 10px;
+}
+#music{
+    margin-left: 445px;
+    margin-top: -100px;
+}
+audio {
+    margin-top: 20px;
+    
 }
 
